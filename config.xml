@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.hauntedmansion.tracker" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Haunted Mansion Tracker</name>
+    <description>
+        An app that helps you track your Betrayal At House On The Hill character stats
+    </description>
+    <author email="tylercgoodman@gmail.com">
+        Tyler Goodman
+    </author>
+    <content src="index.html" />
+    <icon src="www/img/icon.png" />
+    <splash src="www/img/icon.png" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <preference name="KeepRunning" value="false"/>
+    <platform name="android">
+    </platform>
+    <platform name="ios">
+    </platform>
+</widget>

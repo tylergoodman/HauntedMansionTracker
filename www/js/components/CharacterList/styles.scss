@@ -1,0 +1,10 @@
+.CharacterList {
+  // background-image: url('../../../img/two.png');
+  background-color: inherit;
+  background-size: cover;
+  padding: 1rem;
+  & > div {
+    width: 50%;
+    display: inline-block;
+  }
+}

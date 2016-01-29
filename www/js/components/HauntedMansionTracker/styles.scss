@@ -1,0 +1,10 @@
+.HauntedMansionTracker {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  & > div {
+    flex-grow: 1;
+  }
+  background-color: #2D2D2D;
+  color: #DCDCDC;
+}
