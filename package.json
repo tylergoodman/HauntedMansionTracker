@@ -1,5 +1,6 @@
 {
   "name": "HauntedMansionTracker",
+  "description": "An app that helps you track your Betrayal At House On The Hill character stats",
   "version": "1.0.0",
   "private": true,
   "scripts": {
