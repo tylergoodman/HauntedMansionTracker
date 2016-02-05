@@ -1,10 +1,26 @@
 .CharacterList {
-  // background-image: url('../../../img/two.png');
   background-color: inherit;
   background-size: cover;
   padding: 1rem;
   & > div {
     width: 50%;
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .CharacterList {
+    & > div {
+      width: 33%;
+    }
+  }
+}
+
+
+@media screen and (min-width: 64em) {
+  .CharacterList {
+    & > div {
+      width: 25%;
+    }
   }
 }
